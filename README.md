@@ -1,10 +1,10 @@
-# Sorteio de Amigo Secreto
+## Sorteio de Amigo Secreto
 
 Bem-vindo ao projeto Sorteio de Amigo Secreto! 🎉 Esta aplicação permite que os usuários insiram nomes de amigos em uma lista e, em seguida, realizem um sorteio aleatório para determinar quem será o "amigo secreto". Este desafio faz parte do programa ONE, uma parceria da Alura com a Oracle.
 
-![Demonstração](./assets/screenshot.png)
+---
 
-# 🚀 Funcionalidades
+## 🚀 Funcionalidades
 
 ✅ Adicionar nomes: Os usuários podem inserir o nome de um amigo em um campo de texto e adicioná-lo à lista ao clicar no botão "Adicionar".
 
@@ -16,12 +16,21 @@ Bem-vindo ao projeto Sorteio de Amigo Secreto! 🎉 Esta aplicação permite que
 
 ✅ Sorteio aleatório: Ao clicar no botão "Sortear Amigo", um nome será selecionado aleatoriamente e exibido na tela como o amigo secreto sorteado. 🎲
 
-# 🛠️ Tecnologias Utilizadas
+---
+
+## 🛠️ Tecnologias Utilizadas
 
 - HTML → Estrutura da aplicação 🏗️
 - CSS → Estilização e responsividade 🎨
 - JavaScript → Manipulação da lista, validações e sorteio 🧠
 
+---
+
+## 🌟 Demonstração
+
+[Clique aqui e teste online!](https://mescola.github.io/challenge-amigo-secreto_pt/)
+
+![](./assets/screenshot.png)
 
 
 Feito por Marcia Escolástico.
