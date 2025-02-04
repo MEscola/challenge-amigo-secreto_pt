@@ -36,7 +36,6 @@ body {
     background-size: 800px;
     background-repeat: no-repeat; 
     background-position: center;
-    margin-right: 15%;
     flex: 40%;
     display: flex;
     justify-content: center;
@@ -175,6 +174,8 @@ ul {
     background-size: 100%;
     background-repeat: no-repeat; 
     background-position: center;
+    margin-right: 15%;
+    flex: 40%;
 } 
     .main-title {
         font-size: 3rem;
@@ -208,7 +209,7 @@ ul {
     
     .button-draw, .button-list {
         font-size: .9rem;
-        padding: .7rem 1.7rem;
+        padding: .7rem 1.5rem;
         width: 100%;
         justify-content: center;
     }
@@ -216,8 +217,8 @@ ul {
 
 @media (max-width: 480px) {
     .header-banner {
-        background-image: url("./assets/amigo-banner2.png");
-        background-size: 100%;
+        background-image: url("./assets/amigo-banner-mobile.png");
+        background-size:cover;
         background-repeat: no-repeat; 
         background-position: center;
     } 
