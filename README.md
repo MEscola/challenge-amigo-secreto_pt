@@ -33,4 +33,4 @@ Bem-vindo ao projeto Sorteio de Amigo Secreto! 🎉 Esta aplicação permite que
 ![](./assets/screenshot.png)
 
 
-Feito por Marcia Escolástico.
+Feito por Marcia Escolástico
