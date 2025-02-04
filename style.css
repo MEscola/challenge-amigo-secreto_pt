@@ -1,10 +1,10 @@
 :root {
-    --color-primary: #4B69FD;
+    --color-primary: #eebc73;
     --color-secondary: #FFF9EB;
-    --color-tertiary: #C4C4C4;
-    --color-button: #fe652b;
+    --color-tertiary: #eebc74;
+    --color-button: #d97356;
     --color-button-hover: #e55720;
-    --color-text: #444444;
+    --color-text: #81524f;
     --color-white: #FFFFFF;
 }
 
@@ -32,6 +32,11 @@ body {
 
 /* Banner */
 .header-banner {
+    background-image: url("./assets/amigo-banner2.png");
+    background-size: 800px;
+    background-repeat: no-repeat; 
+    background-position: center;
+    margin-right: 15%;
     flex: 40%;
     display: flex;
     justify-content: center;
@@ -43,12 +48,12 @@ body {
 .input-section {
     flex: 60%;
     background-color: var(--color-secondary);
-    border: 1px solid #000;
+    border: 1px solid #d97356;
     border-radius: 64px 64px 0 0;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 20px;
+    padding: 10px;
     width: 100%;
 }
 
@@ -82,7 +87,7 @@ body {
 .input-name {
     width: 100%;
     padding: 10px;
-    border: 2px solid #000;
+    border: 2px solid #d97356;
     border-radius: 25px 0 0 25px;
     font-size: 16px;
 }
@@ -110,7 +115,7 @@ button {
     padding: 15px 30px;
     font-family: "Inter", sans-serif;
     font-size: 14px;
-    border: 2px solid #000;
+    border: 2px solid #d97356;
     border-radius: 25px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
     cursor: pointer;
@@ -137,7 +142,7 @@ ul {
 
 .result-list {
     margin-top: 15px;
-    color: #05DF05;
+    color: #080808;
     font-size: 22px;
     font-weight: bold;
     text-align: center;
@@ -158,56 +163,94 @@ ul {
     margin-right: 40px;
 }
 
-.button-draw:hover {
+.button-draw:hover , .button-list:hover {
     background-color: var(--color-button-hover);
 }
 
 
 /* Responsividade */
 @media (max-width: 768px) {
+.header-banner {
+    background-image: url("./assets/amigo-banner2.png");
+    background-size: 100%;
+    background-repeat: no-repeat; 
+    background-position: center;
+} 
     .main-title {
-        font-size: 36px;
+        font-size: 3rem;
+        display: flex;
+        margin-left: 2rem;
+        
     }
     .section-title {
-        font-size: 28px;
-    }
-    .input-section {
-        padding: 15px;
-        border-radius: 40px 40px 0 0;
+        font-size: 1.5rem;
     }
     .input-wrapper__adicionar, .input-wrapper__remover {
-        flex-direction: column;
+        width: 100%;
         align-items: center;
     }
     .input-name {
-        border-radius: 25px;
-        margin-bottom: 10px;
+        width: 100%;
     }
     .button-add {
         border-radius: 25px;
     }
+    .input-section {
+        padding: 5px;
+        border-radius: 40px 40px 0 0;
+    }
+
+    
+    .button-container {
+        
+        gap: 5px;
+    }
+    
     .button-draw, .button-list {
-        padding: 10px 20px;
-        font-size: 14px;
+        font-size: .9rem;
+        padding: .7rem 1.7rem;
+        width: 100%;
+        justify-content: center;
     }
 }
 
 @media (max-width: 480px) {
+    .header-banner {
+        background-image: url("./assets/amigo-banner2.png");
+        background-size: 100%;
+        background-repeat: no-repeat; 
+        background-position: center;
+    } 
     .main-title {
         font-size: 28px;
     }
     .section-title {
         font-size: 24px;
     }
+
+    .input-wrapper__adicionar, .input-wrapper__remover {
+        width: 100%;
+        align-items: center;
+    }
+    .input-name {
+        width: 100%;
+    }
+    .button-add {
+        border-radius: 25px;
+    }
+
     .input-section {
         padding: 10px;
         border-radius: 30px 30px 0 0;
     }
+
     .button-container {
-        flex-direction: column;
         gap: 5px;
+        
     }
     .button-draw, .button-list {
+        font-size: .9rem;
+        padding: .5rem 1.5rem;
         width: 100%;
         justify-content: center;
     }
