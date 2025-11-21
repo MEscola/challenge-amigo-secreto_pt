@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Participar — Amigo Secreto</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <script type="module" src="firebase.js"></script>
+    <script type="module" src="participantes.js"></script>
+</head>
+
+<body>
+    <main class="main-content">
+
+        <a href="index.html" class="back-link">← Voltar</a>
+
+        <h2 class="section-title">Digite seu nome</h2>
+
+        <!-- <select id="select-nome"></select> -->
+
+        <input type="text" id="input-nome" placeholder="Digite seu nome" />
+        <button  onclick="sortear()">Sortear Amigo</button>
+        
+        <!-- <div id="resultado"></div> -->
+
+        <!-- <button onclick="corrigirNome()">Corrigir nome</button> -->
+
+        <!-- <button class="btn-primary" onclick="sortear()">Sortear</button> -->
+
+<div id="resultado" class="resultado-box"></div>
+<div id="confetes-container"></div>
+
+
+
+    </main>
+</body>
+</html>

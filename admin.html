@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Organizador - Amigo Secreto</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <script type="module" src="firebase.js"></script>
+    <script type="module" src="admin.js"></script>
+</head>
+
+<body>
+    <main class="main-content">
+
+        <a href="index.html" class="back-link">← Voltar</a>
+
+        <h2 class="section-title">Organizar lista de participantes</h2>
+
+        <div class="input-group">
+            <input type="text" id="nomeInput" placeholder="Digite um nome">
+            <button onclick="adicionarNome()">Adicionar</button>
+            <button class="btn-danger" onclick="limparLista()">Limpar lista</button>
+        </div>
+
+        <!-- <div class="input-group"> 
+            <input type="text" id="removerInput" placeholder="Nome para remover">
+            <button onclick="removerNome()">Remover</button>
+        </div>
+-->
+        <h3>Lista de participantes:</h3>
+        <ul id="lista"></ul>
+
+        
+
+    </main>
+    
+</body>
+</html>
