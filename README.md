@@ -1,20 +1,24 @@
 ## Sorteio de Amigo Secreto
 
-Bem-vindo ao projeto Sorteio de Amigo Secreto! 🎉 Esta aplicação permite que os usuários insiram nomes de amigos em uma lista e, em seguida, realizem um sorteio aleatório para determinar quem será o "amigo secreto". Este desafio faz parte do programa ONE, uma parceria da Alura com a Oracle.
+Uma aplicação simples e intuitiva para criar listas de participantes e realizar sorteios de Amigo Secreto, garantindo que nenhuma pessoa tire a si mesma. O projeto utiliza Firebase para persistir os dados da lista e oferece recursos de edição e exclusão de participantes. Este desafio faz parte do programa ONE, uma parceria da Alura com a Oracle.
 
 ---
 
 ## 🚀 Funcionalidades
 
-✅ Adicionar nomes: Os usuários podem inserir o nome de um amigo em um campo de texto e adicioná-lo à lista ao clicar no botão "Adicionar".
+✏️ Adicionar participantes à lista
 
-✅ Remover nomes: Qualquer nome pode ser removido da lista ao clicar no botão "Remover" correspondente.
+🔄 Editar nomes já cadastrados
 
-✅ Listar nomes: Os nomes atualizada aparecerá em um lista visível na tela ao clicar o botão "listar amigos".
+🗑️ Excluir participantes individualmente
 
-✅ Validar entrada: Se o campo de texto estiver vazio, o sistema exibirá um alerta solicitando um nome válido.
+🎲 Sortear o Amigo Secreto, garantindo que ninguém tire o próprio nome
 
-✅ Sorteio aleatório: Ao clicar no botão "Sortear Amigo", um nome será selecionado aleatoriamente e exibido na tela como o amigo secreto sorteado. 🎲
+🔐 Validação inteligente para evitar duplicidade e garantir lista mínima antes do sorteio
+
+☁️ Persistência dos dados usando Firebase (a lista permanece salva)
+
+📱 Interface simples e fácil de usar
 
 ---
 
@@ -23,6 +27,7 @@ Bem-vindo ao projeto Sorteio de Amigo Secreto! 🎉 Esta aplicação permite que
 - HTML → Estrutura da aplicação 🏗️
 - CSS → Estilização e responsividade 🎨
 - JavaScript → Manipulação da lista, validações e sorteio 🧠
+- Firebase (Firestore)
 
 ---
 
@@ -31,6 +36,17 @@ Bem-vindo ao projeto Sorteio de Amigo Secreto! 🎉 Esta aplicação permite que
 [Clique aqui e teste online!](https://mescola.github.io/challenge-amigo-secreto_pt/)
 
 ![](./assets/screenshot.png)
+
+---
+##🎲 Lógica do Sorteio
+
+- O sorteio é realizado garantindo:
+
+- Cada participante recebe exatamente um amigo.
+
+- Ninguém pode tirar a si mesmo.
+
+  Tudo armazenado no Firebase, garantindo que a lista permaneça mesmo ao recarregar a página.
 
 
 Feito por Marcia Escolástico
