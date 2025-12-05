@@ -38,7 +38,7 @@ Uma aplicação simples e intuitiva para criar listas de participantes e realiza
 ![](./assets/screenshot.png)
 
 ---
-##🎲 Lógica do Sorteio
+## 🎲 Lógica do Sorteio
 
 - O sorteio é realizado garantindo:
 
